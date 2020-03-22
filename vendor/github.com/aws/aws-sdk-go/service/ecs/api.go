@@ -19913,6 +19913,9 @@ const (
 	// NetworkModeAwsvpc is a NetworkMode enum value
 	NetworkModeAwsvpc = "awsvpc"
 
+	// NetworkModeDefault is a NetworkMode enum value
+	NetworkModeDefault = "default"
+
 	// NetworkModeNone is a NetworkMode enum value
 	NetworkModeNone = "none"
 )

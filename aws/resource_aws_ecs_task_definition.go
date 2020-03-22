@@ -114,6 +114,7 @@ func resourceAwsEcsTaskDefinition() *schema.Resource {
 					ecs.NetworkModeBridge,
 					ecs.NetworkModeHost,
 					ecs.NetworkModeAwsvpc,
+					ecs.NetworkModeDefault,
 					ecs.NetworkModeNone,
 				}, false),
 			},
